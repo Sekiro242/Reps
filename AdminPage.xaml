@@ -1,0 +1,30 @@
+﻿<Page x:Class="WpfApp6.AdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp6"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdminPage">
+
+    <Grid Background="White">
+        <Button Content="Add" HorizontalAlignment="Left" Margin="190,362,0,0" VerticalAlignment="Top" Width="70"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="78,362,0,0" VerticalAlignment="Top" Width="69"/>
+
+        <Label Content="ID" HorizontalAlignment="Left" Margin="110,54,0,0" VerticalAlignment="Top"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="105,121,0,0" VerticalAlignment="Top"/>
+        <Label Content="Category" HorizontalAlignment="Left" Margin="102,179,0,0" VerticalAlignment="Top" />
+        <Label Content="Year" HorizontalAlignment="Left" Margin="110,239,0,0" VerticalAlignment="Top"/>
+        <Label Content="Producer" HorizontalAlignment="Left" Margin="106,298,0,0" VerticalAlignment="Top"/>
+
+        <TextBox Name="ID_Adm_txt" HorizontalAlignment="Left" Margin="165,62,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="N_Adm_txt" HorizontalAlignment="Left" Margin="165,125,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Ca_Adm_txt" HorizontalAlignment="Left" Margin="165,183,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Y_Adm_txt" HorizontalAlignment="Left" Margin="163,243,0,0"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Pro_Adm_txt" HorizontalAlignment="Left" Margin="165,302,0,0"  VerticalAlignment="Top" Width="120"/>
+
+        <DataGrid Name = "AdminDB" Margin="321,27,30,30"></DataGrid>
+
+    </Grid>
+</Page>
